@@ -2667,12 +2667,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: # #ef620c;
   border-color: #2e6da4;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #286090;
+  background-color: # #ef620c;
   border-color: #122b40;
 }
 .btn-primary:hover {
@@ -2698,7 +2698,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-color: #2e6da4;
 }
 .btn-primary .badge {
-  color: #337ab7;
+  color: # #ef620c ;
   background-color: #fff;
 }
 

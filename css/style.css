@@ -9,12 +9,31 @@
 }
 
 .header {
-    color: #36A0FF;
+    color: #070100;
     font-size: 27px;
     padding: 10px;
 }
 
 .bigicon {
     font-size: 35px;
-    color: #36A0FF;
+    color: #070100;
 }
+.button {
+   white-space: nowrap;
+   line-height:1em;
+   position:relative;
+   outline: none;
+   overflow: visible;
+   cursor: pointer;
+   border: 1px solid #999;
+border: rgba(0, 0, 0, .2) 1px solid;
+   border-bottom:rgba(0, 0, 0, .4) 1px solid;
+   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+   box-shadow: 0 1px 2px rgba(0,0,0,.2);
+   background: -moz-linear-gradient(
+      center top,
+      rgba(255, 255, 255, .1) 0%,
+      rgba(0, 0, 0, .1) 100%
+   );
+ }
