@@ -18,9 +18,10 @@
   </head>
 <body background="./images/cmt.jpg">
 <div align="center"><IMG src="./images/vision-white.png" width="250" class="my-4"></div>
-		<div class="container">
-            <div class="well well-sm">
+		<div align="center" class="container">
+            <div align="center" class="well">
                 <form class="form-horizontal" method="post">
+									<fieldset>
                         <legend class="text-center header">Suscríbete a nuestras noticias</legend>
 												<div class="container-fluid">
 												    <div class="form-group">
@@ -30,7 +31,7 @@
 												            <div class="input-group-prepend">
 												              <span class="input-group-text" id="addon-wrapping"><i class="fa fa-user bigicon"></i></span>
 												            </div>
-												            <input type="text" class="form-control" name= "nombre" placeholder="Nombre">
+												            <input type="text" class="form-control" name= "nombre" placeholder="Nombre" enabled>
 												          </div>
 												        </div>
 												      </div>
@@ -42,9 +43,9 @@
 													        <div class="col-6 col-md-4">
 													          <div class="input-group flex-nowrap">
 													            <div class="input-group-prepend">
-													              <span class="input-group-text" id="addon-wrapping"><i class="fa fa-user bigicon"></i></span>
+													              <span class="input-group-text"><i class="fa fa-user bigicon"></i></span>
 													            </div>
-													            <input type="text" class="form-control" name="apellido" placeholder="Apellido">
+													            <input type="text" class="form-control" name="apellido" placeholder="Apellido" enabled>
 													          </div>
 													        </div>
 													      </div>
@@ -58,7 +59,7 @@
 														            <div class="input-group-prepend">
 														              <span class="input-group-text" id="addon-wrapping"><i class="fa fa-envelope bigicon"></i></span>
 														            </div>
-														            <input type="text" class="form-control" name="correo" placeholder="email@example.com">
+														            <input type="text" class="form-control" name="correo" placeholder="email@example.com" enabled>
 														          </div>
 														        </div>
 														      </div>
@@ -87,6 +88,7 @@
                    </button>	<button type="reset" class="btn btn-primary btn-lg" style="background-color:#ff6540">Cancelar</button>
                             </div>
                         </div>
+												</fieldset>
 								</form>
 		</div>
 </div>

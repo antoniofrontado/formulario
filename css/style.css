@@ -1,18 +1,26 @@
-.form-control {
-  position: absolute;
-  padding: 40px;
-  pointer-events: none;
-padding-left: 30px!important;
-border:0;
-}
-
 .header {
     color: #070100;
     font-size: 27px;
     padding: 20px;
 }
+
+container{
+  width: 150px;
+ height: 150px;
+ display: table;
+}
+.well{
+  display:table-cell;
+  vertical-align: middle;
+}
 .form-horizontal{
-  
+  width:600px;
+  height:320px;
+justify-content:center;
+}
+.form-control {
+  padding: 40px;
+  pointer-events: none;
 }
 
 a {
