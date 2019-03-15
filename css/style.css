@@ -4,11 +4,6 @@
     padding: 20px;
 }
 
-container{
-  width: 150px;
- height: 150px;
- display: table;
-}
 .well{
   display:table-cell;
   vertical-align: middle;
@@ -16,18 +11,6 @@ container{
 .form-horizontal{
   width:600px;
   height:320px;
-justify-content:center;
-}
-.form-control {
-  padding: 40px;
-  pointer-events: none;
-}
-
-a {
-  color: #FF5126;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
 }
 a:hover, a:active, a:focus {
   color: #FF5126;
@@ -36,14 +19,14 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Droid Sans", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
 }
 .btn {
   margin-right: 4px;
