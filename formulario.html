@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Suscripcion a boletines de Synergy Vision</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Synergy Vision" />
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script>
+$('#validate').click(function() {
+
+    var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+    if (regex.test($('#correo').val().trim())) {
+        alert('Correo validado');
+
+    } else {
+        alert('La direccón de correo no es válida');
+    }
+});
+
+</script>
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body background="./images/cmt.jpg" align="center">
+  <div align="center"><IMG src="./images/vision-white.png" width="250" class="my-4"></div>
+  		<div align="center" class="container" style="padding-top:4vw">
+              <div align="center" class="well">
+                  <form class="form-horizontal" method="post">
+  									<fieldset>
+                          <legend class="text-center header">Suscríbete a nuestras noticias</legend>
+  												<div class="container-fluid">
+  												    <div class="form-group">
+  												      <div class="row justify-content-center mt-4">
+  												        <div class="col-6 col-md-4">
+  												          <div class="input-group flex-nowrap">
+  												            <div class="input-group-prepend">
+  												              <span class="input-group-text" id="addon-wrapping"><i class="fa fa-user bigicon"></i></span>
+  												            </div>
+  												            <input type="text" class="form-control" name= "nombre" placeholder="Nombre" required>
+  												          </div>
+  												        </div>
+  												      </div>
+  												    </div>
+  												  </div>
+  													<div class="container-fluid">
+  													    <div class="form-group">
+  													      <div class="row justify-content-center mt-4">
+  													        <div class="col-6 col-md-4">
+  													          <div class="input-group flex-nowrap">
+  													            <div class="input-group-prepend">
+  													              <span class="input-group-text"><i class="fa fa-user bigicon"></i></span>
+  													            </div>
+  													            <input type="text" class="form-control" name="apellido" placeholder="Apellido" required>
+  													          </div>
+  													        </div>
+  													      </div>
+  													    </div>
+  													  </div>
+  														<div class="container-fluid">
+  														    <div class="form-group">
+  														      <div class="row justify-content-center mt-4">
+  														        <div class="col-6 col-md-4">
+  														          <div class="input-group flex-nowrap">
+  														            <div class="input-group-prepend">
+  														              <span class="input-group-text" id="addon-wrapping"><i class="fa fa-envelope bigicon"></i></span>
+  														            </div>
+  														            <input type="text" class="form-control" name="correo" placeholder="email@example.com" required>
+  														          </div>
+  														        </div>
+  														      </div>
+  														    </div>
+  														  </div>
+  															<div class="container-fluid">
+  															    <div class="form-group">
+  															      <div class="row justify-content-center mt-4">
+  															        <div class="col-6 col-md-4">
+  															          <div class="input-group flex-nowrap">
+  															            <div class="input-group-prepend">
+  															              <span class="input-group-text" id="addon-wrapping"><i class="fa fa-phone-square bigicon"></i></span>
+  															            </div>
+  															            <input type="text" class="form-control" name="cel" placeholder="Celular" >
+  															          </div>
+  															        </div>
+  															      </div>
+  															    </div>
+  															  </div>
+  												<div class="form-group">
+  													<span class="col-md-1 col-md-offset-2 text-center"><p></p>
+  													</span>
+                              <div class="col-md-6 text-center">
+  															<button id="validate" class="btn btn-primary btn-lg" style="background-color:#ff6540"> Suscribir
+                       <i class="fa fa-arrow-right "></i>
+                     </button>	<button type="reset" class="btn btn-primary btn-lg" style="background-color:#ff6540">Cancelar</button>
+                              </div>
+                          </div>
+  												</fieldset>
+  								</form>
+  		</div>
+  </div>
+
+
+  </body>
+</html>
